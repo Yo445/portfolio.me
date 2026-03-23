@@ -6,7 +6,7 @@ import './introduction.scss';
 const Introduction = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
   const nameArray = [...'Youssef,'];
-  const jobArray = [...'Software enginner'];
+  const jobArray = [...'React Engineer'];
 
   useEffect(() => {
     setTimeout(() => {
@@ -31,7 +31,7 @@ const Introduction = () => {
           {/* <img src='https://res.cloudinary.com/dhbiouaym/image/upload/v1663667972/Portfolio/logo-s_fna9e6.png' className='intro__logos' alt='' /> */}
           <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={19} />
         </h1>
-        <h2 className='intro__headingSecondary'>Full Stack Developer / Software Engineer</h2>
+        <h2 className='intro__headingSecondary'>Full Stack Developer / React Engineer</h2>
         <Link to='/contact' className='intro__button'>
           Contact Me
         </Link>
