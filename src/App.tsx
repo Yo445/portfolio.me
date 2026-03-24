@@ -1,4 +1,3 @@
-import React from 'react';
 import Home from '@pages/Home/Home';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Contact from '@pages/Contact/Contact';
